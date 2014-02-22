@@ -13,12 +13,13 @@ With Leiningen:
 ```
 
 Example:
+* the title of present program of "Tokyo(130) NHKBS1(s1)"
+
 
 ``` clj
 (use 'clj-nhk.core)
 
-;; Following program Now On Air 
-(:following (nowonair "APIKEY" "130" "g1"))
+(println (:title (:present (nowonair "APIKEY" "130" "s1"))))
 ```
 
 ## License
