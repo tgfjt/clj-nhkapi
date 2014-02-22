@@ -8,13 +8,13 @@ Clojure wrapper for NHK Program API.
 
 With Leiningen:
 
-```
+``` clj
 [clj-nhk "0.1.0"]
 ```
 
 Example:
 
-```
+``` clj
 (use 'clj-nhk.core)
 
 ;; Following program Now On Air 
