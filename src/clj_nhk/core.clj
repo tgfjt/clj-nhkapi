@@ -89,7 +89,3 @@
 (defn nowonair
   [apikey area service]
   (current-programs service (get-list (nowonair-api apikey area service))))
-
-(defn -main
-  [apikey area service id]
-  (programinfo apikey area service id))

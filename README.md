@@ -1,6 +1,6 @@
 # clj-nhk
 
-for NHK Program API with Clojure.
+Clojure wrapper for NHK Program API.
 
 ## Usage
 
@@ -10,7 +10,9 @@ With Leiningen:
 [clj-nhk "0.1.0"]
 ```
 
-'''
+Example:
+
+```
 (use 'clj-nhk.core)
 
 ;; Following program Now On Air 

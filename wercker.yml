@@ -1,0 +1,9 @@
+vgeshel / wercker-box-clojure
+
+
+build:
+  steps:
+    - script:
+        name: run tests
+        code: |
+          lein test
