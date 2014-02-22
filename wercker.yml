@@ -1,5 +1,4 @@
-vgeshel / wercker-box-clojure
-
+box: vgeshel/clojure@0.0.2
 
 build:
   steps:
